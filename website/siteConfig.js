@@ -14,7 +14,7 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
+    image: '/img/royalcomma.svg',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
@@ -48,14 +48,15 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/royalcomma.svg',
+  footerIcon: 'img/royalcomma.svg',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
+  //https://coolors.co/d0c779-6e3277-8d6b94-b185a7-e8dbc5
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#6E3277',
+    secondaryColor: '#8D6B94',
   },
 
   /* Custom fonts for website */
